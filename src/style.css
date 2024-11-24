@@ -428,7 +428,7 @@ button:focus {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
+  color: rgb(94, 93, 93) !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
@@ -492,6 +492,11 @@ button:focus {
 .blog-link {
   color: white !important;
   text-decoration: none !important;
+}
+
+.non-color-link {
+  text-decoration: none !important;
+  color: white !important;
 }
 
 .blog-link:hover {

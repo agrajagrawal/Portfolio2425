@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Profiles from "./Profiles";
 
 function About() {
   return (
@@ -34,6 +35,12 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
+        <h1 className="project-heading">
+          Coding <strong className="purple">Profiles</strong> 
+        </h1>
+        <Profiles />
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
@@ -45,7 +52,8 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> Days I code */}
+
       </Container>
     </Container>
   );

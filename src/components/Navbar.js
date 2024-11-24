@@ -12,6 +12,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMediumWorkmark,
+  AiOutlineDesktop,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -38,9 +40,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        {/* <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -66,6 +68,19 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineDesktop
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Experience
               </Nav.Link>
             </Nav.Item>
 
