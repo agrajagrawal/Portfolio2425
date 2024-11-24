@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -21,7 +22,7 @@ function Home2() {
             <p className="home-about-body">
               With over two years of experience in full-stack development, I specialize in backend engineering, particularly in <b className="purple">payments</b> and <b className="purple">FinTech</b>.
               <br /><br />
-              I’m proficient in <i><b className="purple">Node.js</b></i>, <i><b className="purple">React.js</b></i>, <i><b className="purple">Go</b></i>, and <i><b className="purple">Apache Kafka</b></i>.
+              I’m proficient in <i><b className="purple">Node.js</b></i>, <i><b className="purple">React.js</b></i>, <i><b className="purple">MongoDB</b></i> and <i><b className="purple">C++</b></i>.
               <br /><br />
               I’m always exploring and learning, especially in <i><b className="purple">data analysis</b></i>, <i><b className="purple">stock market analysis</b></i>, and personal development.
               <br /><br />
@@ -50,6 +51,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:agrajagrawal2018@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillMail />
                 </a>
               </li>
               {/* <li className="social-icons">

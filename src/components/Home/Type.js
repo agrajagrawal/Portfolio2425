@@ -10,6 +10,7 @@ function Type() {
           "Finance Enthusiast",
           "Software Engineer",
           "Competitive Programmer",
+          "MERN Developer"
         ],
         autoStart: true,
         loop: true,
